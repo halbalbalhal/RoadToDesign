@@ -1,0 +1,30 @@
+@import url('../../styles/constants.css');
+
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 20px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--dark-color);
+}
