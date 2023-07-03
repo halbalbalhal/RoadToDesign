@@ -1,0 +1,34 @@
+:root {
+    /*Colors*/
+    --dark-color: #1A141F;
+    --white-color: #ffffff;
+    --transparent-purple-color: rgba(106, 23, 171, 0.2);
+    --very-light-purple-color: #AE60EB;
+    --light-purple-color: #9D3FE7;
+    --dark-purple-color: #6A17AB;
+    --light-gray-color: #ABA7AF;
+    --light-gray-always-color: #ABA7AF;
+    --white-gray-color: #E5E0EB;
+    --red-color: #D51A52;
+    --orange-color: #FF9500;
+    --green-color: #00B998;
+    --blue-color: #0F0BAB;
+    --line-color: rgba(0,0,0,0.3);
+    --graphite-color: #28292C;
+    --dark-gray-color: #E5E0EB;
+    --dark-gray-always-color: #E5E0EB;
+    --sun-color: #FFBF00;
+    --green-color: #00B998;
+
+    /*Borders*/
+    --small-radius: 4px;
+    --medium-radius: 16px;
+    --big-radius: 25px;
+
+    /*Transition*/
+    --transition: all .25s linear;
+    
+    /*Box-shadow*/
+    --toggle-shadow: inset 12px -4px 0px 0px;
+
+}
