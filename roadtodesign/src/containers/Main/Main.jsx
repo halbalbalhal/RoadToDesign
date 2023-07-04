@@ -4,12 +4,10 @@ import styles from './Main.module.css'
 
 const Main = () => {
     return (
-        <>
         <section className={styles.mn}>
             <Nav />
             <Header />
         </section>
-        </>
     )
 }
 

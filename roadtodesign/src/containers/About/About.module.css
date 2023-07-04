@@ -1,0 +1,24 @@
+@import url('../../styles/constants.css');
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.about__wrapper {
+    display: flex;
+    margin-top: 100px;
+    width: 1440px;
+}
+
+.about span {
+    font-size: 42px;
+}
+
+.about p {
+    text-align: center;
+}
