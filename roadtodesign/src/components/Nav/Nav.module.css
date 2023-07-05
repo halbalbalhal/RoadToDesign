@@ -31,10 +31,42 @@ a {
     color: var(--white-color);
 }
 
+.burger__button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.burger__line {
+    display: flex;
+    width: 40px;
+    height: 5px;
+    background-color: var(--white-color);
+    margin-top: 5px;
+}
+
 @keyframes nav {
     0% {
         opacity: 0;
     } 100% {
         opacity: 1;
     }
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav__links {
+        display: none;
+    }
+
+    .nav__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burger__button {
+        display: flex;
+    }
+
 }

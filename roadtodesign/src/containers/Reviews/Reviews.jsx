@@ -7,9 +7,12 @@ const Reviews = () => {
             <div className={styles.rev__wrapper}>
                 {ReviewsData.map(review => (
                     <div key={review.id} className={styles.rev__block}>
+                        <img src={review.image} />
                         <span>{review.name}</span>
                         <p>{review.text}</p>
-                        <a href={review.link}>Перейти</a>
+                        <button onClick={() => {
+                            window.location.href = review.link
+                        }}>Перейти на канал</button>
                     </div>
                 ))}
             </div>

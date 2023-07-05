@@ -10,6 +10,12 @@ const Nav = () => {
                     <a href='#about'>О нас</a>
                     <a href='https://amazing-online.com'>Заказать превью</a>
                 </div>
+
+                <div className={styles.burger__button}>
+                    <div className={styles.burger__line}></div>
+                    <div className={styles.burger__line}></div>
+                    <div className={styles.burger__line}></div>
+                </div>
             </div>
         </nav>
     )

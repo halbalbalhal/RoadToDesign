@@ -9,6 +9,7 @@ body, *, *::after, *::before {
   outline: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 button {
@@ -23,3 +24,4 @@ code {
 p {
   color: #808080;
 }
+

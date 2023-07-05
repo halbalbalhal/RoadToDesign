@@ -18,7 +18,7 @@ const Swp = () => {
     return (
         <>
         <Swiper style={{  "--swiper-pagination-color": "orange",
-                          "--swiper-navigation-color": "orange"
+                          "--swiper-navigation-color": "orange",
                         }}
             cssMode={true}
             navigation={true}

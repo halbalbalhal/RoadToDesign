@@ -47,3 +47,16 @@ button {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .header__wrapper {
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__wrapper p {
+        text-align: center;
+    }
+}
