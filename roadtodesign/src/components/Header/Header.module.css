@@ -17,9 +17,16 @@
 
 p {
     text-align: left;
-    max-width: 500px;
+    max-width: 450px;
     font-size: 20px;
     margin-top: 10px;
+    animation: header 3s ease;
+}
+
+h1 {
+    font-size: 50px;
+    animation: header 2s ease;
+
 }
 
 button {
@@ -30,4 +37,13 @@ button {
     color: var(--white-color);
     font-size: 16px;
     margin-top: 40px;
+    animation: header 6s ease;
+}
+
+@keyframes header {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
 }

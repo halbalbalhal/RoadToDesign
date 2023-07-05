@@ -1,13 +1,12 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import React, { useRef, useState } from 'react';
-
+import { Swiper, SwiperSlide } from 'swiper/react'
 import './Swiper.css'
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules'
 
 import 'swiper/css/controller'
 
@@ -18,10 +17,8 @@ import Solo from '../../Assets/images/Swiper/solo.jpg'
 const Swp = () => {
     return (
         <>
-        <Swiper style={{  "--swiper-pagination-color": "red",
-                          "--swiper-navigation-color": "red",
-                          "--swiper-navigation-sides-offset": "50px"
-
+        <Swiper style={{  "--swiper-pagination-color": "orange",
+                          "--swiper-navigation-color": "orange"
                         }}
             cssMode={true}
             navigation={true}

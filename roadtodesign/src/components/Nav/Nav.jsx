@@ -5,9 +5,9 @@ const Nav = () => {
         <nav className={styles.nav}>
             <div className={styles.nav__wrapper}>
                 <div className={styles.nav__links}>
-                    <a href='https://amazing-online.com'>Преимущества</a>
-                    <a href='https://amazing-online.com'>Отзывы</a>
-                    <a href='https://amazing-online.com'>О нас</a>
+                    <a href='#benefits'>Преимущества</a>
+                    <a href='#reviews'>Отзывы</a>
+                    <a href='#about'>О нас</a>
                     <a href='https://amazing-online.com'>Заказать превью</a>
                 </div>
             </div>

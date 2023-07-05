@@ -3,7 +3,7 @@ import { ReviewsData } from '../../data/ReviewData'
 
 const Reviews = () => {
     return (
-        <section className={styles.reviews}>
+        <section className={styles.reviews} id='reviews'>
             <div className={styles.rev__wrapper}>
                 {ReviewsData.map(review => (
                     <div key={review.id} className={styles.rev__block}>
