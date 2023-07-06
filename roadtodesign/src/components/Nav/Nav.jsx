@@ -8,7 +8,7 @@ const Nav = () => {
                     <a href='#benefits'>Преимущества</a>
                     <a href='#reviews'>Отзывы</a>
                     <a href='#about'>О нас</a>
-                    <a href='https://amazing-online.com'>Заказать превью</a>
+                    <a href='#order'>Заказать превью</a>
                 </div>
 
                 <div className={styles.burger__button}>

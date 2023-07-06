@@ -4,7 +4,6 @@ import { BennefitsData } from '../../data/BenefitsData'
 const Benefits = () => {
     return (
         <section className={styles.benefits} id='benefits'>
-            <span className={styles.benefits__title}>Наши преимущества</span>
             <div className={styles.benefits__wrapper}>
                 {BennefitsData.map(benefit => (
                     <div key={benefit.id} className={styles.benefit__block}>

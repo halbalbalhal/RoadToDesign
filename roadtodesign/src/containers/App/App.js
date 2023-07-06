@@ -3,6 +3,7 @@ import Main from '../Main/Main'
 import Reviews from '../Reviews/Reviews'
 import Benefits from '../Benefits/Benefits'
 import About from '../About/About'
+import Order from '../Order/Order'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Benefits />
       <Reviews />
       <About />
+      <Order />
     </>
   )
 }

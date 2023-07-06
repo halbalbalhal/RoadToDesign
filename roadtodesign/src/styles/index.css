@@ -25,3 +25,13 @@ p {
   color: #808080;
 }
 
+li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #808080;
+  cursor: pointer;
+}
+
+span {
+  font-size: 40px;
+}

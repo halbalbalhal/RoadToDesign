@@ -25,6 +25,11 @@
     animation: nav 1s ease;
 }
 
+.nav__wrapper a:hover {
+    color: bisque;
+    transition: var(--transition);
+}
+
 a {
     font-size: 20px;
     text-decoration: none;
