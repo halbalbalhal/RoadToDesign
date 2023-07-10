@@ -36,3 +36,14 @@
     }
 }
 
+@keyframes right {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    100% {
+        left: -600px;
+        top: 0;
+    }
+}
+

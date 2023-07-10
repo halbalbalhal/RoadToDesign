@@ -1,6 +1,6 @@
 import styles from './Burger.module.css'
 
-const BurgerMenu = () => {
+const BurgerMenu = () => {    
     return (
         <section className={styles.burger__menu} id="bm">
 
@@ -11,13 +11,9 @@ const BurgerMenu = () => {
                     <li>О нас</li>
                     <li>Заказать превью</li>
                 </ul>
-                <button onClick={() => {
+                <button id='button' onClick={() => {
                     document.getElementById("bm").style.display = 'none'
-                }}>Abeba</button>
-            </div>
-
-            <div className={styles.burger__white}>
-
+                }}>Close</button>
             </div>
         </section>
     )
