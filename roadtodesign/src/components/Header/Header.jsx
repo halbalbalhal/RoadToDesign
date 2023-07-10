@@ -11,7 +11,9 @@ const Header = () => {
                     window.location.href = 'https://amazing-online.com'
                 }}>Заказать!</button>
             </div>
-            <img src={Target} className={styles.image}  />
+            <img src={Target} className={styles.image} onClick={() => {
+                window.location.href = '#benefits'
+            }} />
         </header>
     )
 }
