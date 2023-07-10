@@ -1,4 +1,5 @@
 import styles from './Nav.module.css'
+import BurgerMenu from '../BurgerMenu/Burger'
 
 const Nav = () => {
     return (
@@ -11,7 +12,9 @@ const Nav = () => {
                     <a href='#order'>Заказать превью</a>
                 </div>
 
-                <div className={styles.burger__button}>
+                <div className={styles.burger__button} onClick={() => {
+                    document.getElementById("bm").style.display = 'flex'
+                }}>
                     <div className={styles.burger__line}></div>
                     <div className={styles.burger__line}></div>
                     <div className={styles.burger__line}></div>

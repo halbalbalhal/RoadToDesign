@@ -14,21 +14,4 @@
     overflow: none;
 }
 
-.image {
-    margin-top: 100px;
-    animation: updown 2s ease infinite;
-}
-
-@keyframes updown {
-    0% {
-        transform: translate3d(0, -10%, 0);
-      }
-      50% {
-        transform: translate3d(0, 10%, 0);
-      }
-      100% {
-        transform: translate3d(0, -10%, 0);
-      }
-}
-
 

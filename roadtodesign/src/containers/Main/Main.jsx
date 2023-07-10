@@ -8,7 +8,6 @@ const Main = () => {
         <section className={styles.mn}>
             <Nav />
             <Header />
-           <a href="#benefits"><img src={Target} className={styles.image} /></a>
         </section>
     )
 }
