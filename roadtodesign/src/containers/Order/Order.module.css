@@ -55,3 +55,14 @@
 .ord__navigation span {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 650px) {
+    .ord__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ord__navigation li {
+        font-size: 25px
+    }
+}

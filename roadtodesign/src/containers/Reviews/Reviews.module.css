@@ -6,6 +6,7 @@
     justify-content: center;
     background-color: #D3D3D3;
     margin-top: 40px;
+    position: relative;
 }
 
 .rev__wrapper {
@@ -28,7 +29,6 @@
 .reviews a {
     color: red;
     text-decoration: underline;
-    margin-top: 10px;
 }
 
 .reviews span {
@@ -40,8 +40,23 @@
     max-width: 300px;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .reviews img {
     border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.reviews button {
+    position: absolute;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .reviews {
+        display: none;
+    }
 }

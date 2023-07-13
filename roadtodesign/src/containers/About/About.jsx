@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import Swp from '../../components/Swiper/Swiper'
+import Swp from '../../components/SwiperPreview/Swiper'
 
 const About = () => {
     return (

@@ -5,6 +5,7 @@ import Benefits from '../Benefits/Benefits'
 import About from '../About/About'
 import Order from '../Order/Order'
 import BurgerMenu from '../../components/BurgerMenu/Burger'
+import TsSwp from '../TestSwiper/TsSwp'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BurgerMenu />
       <Main />
       <Benefits />
+      <TsSwp />
       <Reviews />
       <About />
       <Order />

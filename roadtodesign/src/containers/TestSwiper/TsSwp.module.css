@@ -1,0 +1,55 @@
+@import url('../../styles/constants.css');
+
+.rev__swiper {
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.swp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swp__block {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+
+.swp span {
+    font-size: 25px;
+}
+
+.swp img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.swp p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .rev__swiper {
+        display: flex;
+    }
+}

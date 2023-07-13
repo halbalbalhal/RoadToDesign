@@ -12,6 +12,11 @@ body, *, *::after, *::before {
   overflow-x: hidden;
 }
 
+::selection {
+  color: var(--white-color);
+  background-color: var(--orange-color);
+}
+
 button {
   cursor: pointer;
 }

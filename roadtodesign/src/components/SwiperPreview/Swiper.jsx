@@ -13,6 +13,11 @@ import 'swiper/css/controller'
 import Dagon from '../../Assets/images/Swiper/Dagon.jpg'
 import Sphere from '../../Assets/images/Swiper/goldensphere.jpg'
 import Solo from '../../Assets/images/Swiper/solo.jpg'
+import Gox from '../../Assets/images/Swiper/gox.jpg'
+import Stream from '../../Assets/images/Swiper/stream.jpg'
+import Traders from '../../Assets/images/Swiper/traders.jpg'
+import Ballas from '../../Assets/images/Swiper/BALLAS.jpg'
+import Destroyment from '../../Assets/images/Swiper/destroyment.jpg'
 
 const Swp = () => {
     return (
@@ -28,15 +33,14 @@ const Swp = () => {
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
             className="mySwiper"
             >
-            <SwiperSlide><img src={Dagon} /></SwiperSlide>
+            <SwiperSlide id='first-slide'><img src={Dagon} /></SwiperSlide>
             <SwiperSlide><img src={Sphere} /></SwiperSlide>
             <SwiperSlide><img src={Solo} /></SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide><img src={Gox} /></SwiperSlide>
+            <SwiperSlide><img src={Stream} /></SwiperSlide>
+            <SwiperSlide><img src={Traders} /></SwiperSlide>
+            <SwiperSlide><img src={Ballas} /></SwiperSlide>
+            <SwiperSlide><img src={Destroyment} /></SwiperSlide>
         </Swiper>
       </>
     )

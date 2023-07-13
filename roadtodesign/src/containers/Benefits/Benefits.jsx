@@ -7,6 +7,7 @@ const Benefits = () => {
             <div className={styles.benefits__wrapper}>
                 {BennefitsData.map(benefit => (
                     <div key={benefit.id} className={styles.benefit__block}>
+                        <img src={benefit.image} />
                         <span>{benefit.title}</span>
                         <p>{benefit.text}</p>
                     </div>
