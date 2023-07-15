@@ -45,18 +45,14 @@
 
   @media screen and (max-width: 950px) {
     .swiper {
-      width: 700px;
-      height: 600px;
+      width: 500px;
+      height: 400px;
     }
   }
 
-  @media screen and (max-width:750px) {
+  @media screen and (max-width: 530px) {
     .swiper {
-      width: 600px;
-    }
-
-    .swiper img {
-      width: 600px;
-      height: 600px;
+      width: 350px;
+      height: 250px;
     }
   }
