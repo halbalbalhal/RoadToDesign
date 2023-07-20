@@ -14,19 +14,19 @@ const BurgerMenu = () => {
                 <ul>
                     <li onClick={() => {
                         window.location.href = '#benefits'
-                        document.getElementById("bm").style.display = 'none'
+                        BurgerClose()
                     }}>Преимущества</li>
                     <li onClick={() => {
-                        window.location.href = '#reviews'
-                        document.getElementById("bm").style.display = 'none'
+                        window.location.href = '#reviewswiper'
+                        BurgerClose()
                     }}>Отзывы</li>
                     <li onClick={() => {
                         window.location.href = '#about'
-                        document.getElementById("bm").style.display = 'none'                        
+                        BurgerClose()                       
                     }}>О нас</li>
                     <li onClick={() => {
                         window.location.href = '#order'
-                        document.getElementById("bm").style.display = 'none'
+                        BurgerClose()
                     }}>Заказать превью</li>
                 </ul>
             </div>

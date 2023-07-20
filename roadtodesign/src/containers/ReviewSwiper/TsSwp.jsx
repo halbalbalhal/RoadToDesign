@@ -28,6 +28,7 @@ const TsSwp = () => {
                 style={{  "--swiper-pagination-color": "orange",
                         "--swiper-navigation-color": "orange",
                             }}
+                id="reviewswiper"
             >
                 {ReviewsData.map(benefit => (
                     <SwiperSlide  className={styles.swp__block}>

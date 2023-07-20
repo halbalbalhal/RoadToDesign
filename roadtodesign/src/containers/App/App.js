@@ -5,7 +5,7 @@ import Benefits from '../Benefits/Benefits'
 import About from '../About/About'
 import Order from '../Order/Order'
 import BurgerMenu from '../../components/BurgerMenu/Burger'
-import TsSwp from '../TestSwiper/TsSwp'
+import TsSwp from '../ReviewSwiper/TsSwp'
 
 function App() {
   return (
