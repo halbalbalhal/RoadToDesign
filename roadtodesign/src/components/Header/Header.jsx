@@ -8,7 +8,7 @@ const Header = () => {
                 <h1>Road To Design</h1>
                 <p>Road To Design занимается созданием превью для различных видеоигр</p>
                 <button onClick={() => {
-                    window.location.href = 'https://amazing-online.com'
+                    window.location.href = '#order'
                 }}>Заказать!</button>
             </div>
             <img src={Target} className={styles.image} onClick={() => {

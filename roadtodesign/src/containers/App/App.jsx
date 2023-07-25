@@ -6,8 +6,13 @@ import About from '../About/About'
 import Order from '../Order/Order'
 import BurgerMenu from '../../components/BurgerMenu/Burger'
 import ReviewSwiper from '../ReviewSwiper/ReviewSwiper'
+import { analytics } from '../../firebase/firebaseConfig'
 
 function App() {
+
+  if (analytics) {
+    console.log("Google Analitycs is working succesfully")
+  }
   return (
     <>
       <BurgerMenu />
