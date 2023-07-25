@@ -1,6 +1,4 @@
 RoadToDesign
 
-To find this site you can use these links ->
+To find this site you can use this link ->
 bit.ly/roadtodesign 
-roadtodesign-ab7f1.web.app
-roadtodesign-ab7f1.firebaseapp.com
