@@ -1,4 +1,4 @@
-import styles from './TsSwp.module.css'
+import styles from './ReviewSwiper.module.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -14,7 +14,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules'
 import 'swiper/css/controller'
 
 
-const TsSwp = () => {
+const ReviewSwiper = () => {
     return (
         <section className={styles.rev__swiper}>
             <span>Отзывы наших клиентов</span>
@@ -49,4 +49,4 @@ const TsSwp = () => {
     )
 }
 
-export default TsSwp
+export default ReviewSwiper

@@ -48,7 +48,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .rev__swiper {
         display: flex;
     }

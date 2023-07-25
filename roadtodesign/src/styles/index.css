@@ -12,6 +12,10 @@ body, *, *::after, *::before {
   overflow-x: hidden;
 }
 
+#vk_community_messages {
+  overflow-y: hidden;
+}
+
 ::selection {
   color: var(--white-color);
   background-color: var(--orange-color);
