@@ -16,9 +16,9 @@ function App() {
   }
   return (
     <>
+      <Egg />
       <BurgerMenu />
       <Main />
-      <Egg />
       <Benefits />
       <Reviews />
       <ReviewSwiper />
