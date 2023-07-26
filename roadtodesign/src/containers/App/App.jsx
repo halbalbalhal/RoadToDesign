@@ -6,6 +6,7 @@ import About from '../About/About'
 import Order from '../Order/Order'
 import BurgerMenu from '../../components/BurgerMenu/Burger'
 import ReviewSwiper from '../ReviewSwiper/ReviewSwiper'
+import Egg from '../EasterEgg/Egg'
 import { analytics } from '../../firebase/firebaseConfig'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <>
       <BurgerMenu />
       <Main />
+      <Egg />
       <Benefits />
       <Reviews />
       <ReviewSwiper />
